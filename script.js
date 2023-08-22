@@ -1,3 +1,7 @@
+v=window.localStorage.getItem('my-email')
+console.log("===",v);
+document.getElementById('my-email').innerHTML=v
+
 const API_KEY = "10fd34ad2aa14a40bd0fbec8de8d02e2";
 const url = "https://newsapi.org/v2/everything?q=";
 
